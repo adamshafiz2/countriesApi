@@ -1,8 +1,10 @@
 import React from 'react'
+import { FireworkSpinner } from 'react-spinners-kit'
 
 function Loading() {
     return (
-        <div className="cube-spinner text-warning" style={{height: 50, width: 50}}>
+        <div className="text-warning" style={{height: 100, width: 100}} >
+            <FireworkSpinner />
         </div>
     )
 }
