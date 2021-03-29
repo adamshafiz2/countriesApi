@@ -14,3 +14,6 @@ code {
 footer {
   background-color: aqua;
 }
+.homes {
+  display: flex;
+}
